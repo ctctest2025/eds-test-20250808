@@ -25,3 +25,35 @@
   aspect-ratio: 4 / 3;
   object-fit: cover;
 }
+
+.column-list .cards > ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  grid-gap: 24px;
+}
+
+.column-list .cards > ul > li {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid #dadada;
+  background-color: var(--background-color);
+}
+
+.column-list .cards .cards-card-body {
+  margin: 16px;
+  flex: 1;
+}
+
+.column-list .cards .cards-card-image {
+  width: 50%;
+  line-height: 0;
+}
+
+.column-list .cards > ul > li img {
+  width: 50%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+}
