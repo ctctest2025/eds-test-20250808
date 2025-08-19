@@ -140,6 +140,10 @@
           {
             "name": "ColumnList",
             "value": "column-list"
+          },
+          {
+            "name": "TextBlue",
+            "value": "text-blue"
           }
         ]
       }
