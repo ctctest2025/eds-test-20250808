@@ -158,6 +158,75 @@
           }
         }
       ]
+    },
+    {
+      "title": "test block",
+      "id": "testblock",
+      "components": [
+        {
+          "title": "Pagelist",
+          "id": "pagelist",
+          "plugins": {
+            "xwalk": {
+              "page": {
+                "resourceType": "core/franklin/components/block/v1/block",
+                "template": {
+                  "name": "Pagelist",
+                  "model": "pagelist"
+                }
+              }
+            }
+          }
+        },
+        {
+          "title": "testblock",
+          "id": "testblock",
+          "plugins": {
+            "xwalk": {
+              "page": {
+                "resourceType": "core/franklin/components/block/v1/block",
+                "template": {
+                  "name": "TestBlock",
+                  "model": "testblock",
+                  "tagName": "全般",
+                  "title": "コンテンツページタイトル",
+                  "description": "説明テキスト説明テキスト説明テキスト説明テキスト説明テキスト説明テキスト"
+                }
+              }
+            }
+          }
+        },
+        {
+          "title": "FreeHTML",
+          "id": "freehtml",
+          "plugins": {
+            "xwalk": {
+              "page": {
+                "resourceType": "core/franklin/components/block/v1/block",
+                "template": {
+                  "name": "FreeHTML",
+                  "model": "freehtml"
+                }
+              }
+            }
+          }
+        },
+        {
+          "title": "iframe",
+          "id": "iframe",
+          "plugins": {
+            "xwalk": {
+              "page": {
+                "resourceType": "core/franklin/components/block/v1/block",
+                "template": {
+                  "name": "iframe",
+                  "model": "iframe"
+                }
+              }
+            }
+          }
+        }
+      ]
     }
   ]
 }

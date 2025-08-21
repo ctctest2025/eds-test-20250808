@@ -15,7 +15,12 @@
       "hero",
       "cards",
       "columns",
-      "fragment"
+      "fragment",
+      "pagelist",
+      "testblock",
+      "freehtml",
+      "iframe",
+      "pagelist"
     ]
   },
   {

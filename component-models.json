@@ -222,5 +222,68 @@
         "valueType": "string"
       }
     ]
+  },
+  {
+    "id": "testblock",
+    "fields": [
+      {
+        "component": "reference",
+        "valueType": "string",
+        "name": "image",
+        "label": "Image",
+        "multi": false
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "imageAlt",
+        "label": "Alt",
+        "value": ""
+      },
+      {
+        "component": "text",
+        "name": "tagName",
+        "value": "",
+        "label": "tagName",
+        "valueType": "string"
+      },
+      {
+        "component": "richtext",
+        "name": "title",
+        "value": "",
+        "label": "title",
+        "valueType": "string"
+      },
+      {
+        "component": "text",
+        "name": "description",
+        "value": "",
+        "label": "description",
+        "valueType": "string"
+      }
+    ]
+  },
+  {
+    "id": "freehtml",
+    "fields": [
+      {
+        "component": "richtext",
+        "name": "freehtml",
+        "label": "Free HTML",
+        "description": "input HTML"
+      }
+    ]
+  },
+  {
+    "id": "iframe",
+    "fields": [
+      {
+        "component": "richtext",
+        "name": "iframe",
+        "value": "",
+        "label": "input <iframe ...> ",
+        "valueType": "string"
+      }
+    ]
   }
 ]
