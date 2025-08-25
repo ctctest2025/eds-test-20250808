@@ -6,6 +6,7 @@
     "/content/eds-test-site2/query-index:/query-index.json"
   ],
   "includes": [
-    "/content/eds-test-site2/"
+    "/content/eds-test-site2/",
+    "/content/dam/eds-test-site2/"
   ]
 }
