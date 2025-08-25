@@ -10,6 +10,5 @@ export default function decorate(block) {
     window.open(pdfUrl, '_blank');
   });
 
-  block.textContent = '';
-  block.appendChild(button);
+  block.append(button);
 }
