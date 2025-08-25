@@ -3,7 +3,7 @@ export default function decorate(block) {
   const label = block.dataset.label || 'Button';
 
   const button = document.createElement('button');
-  button.className = 'custom-button';
+  button.className = 'custombutton';
   button.textContent = label;
 
   button.addEventListener('click', () => {

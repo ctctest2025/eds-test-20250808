@@ -1,4 +1,4 @@
-.custom-button {
+.custombutton {
   background-color: #007ac0;
   color: #fff;
   border: none;
@@ -9,6 +9,6 @@
   transition: background-color 0.2s ease-in-out;
 }
 
-.custom-button:hover {
+.custombutton:hover {
   background-color: #005a96;
 }
