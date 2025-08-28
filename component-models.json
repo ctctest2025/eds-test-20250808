@@ -222,5 +222,22 @@
         "valueType": "string"
       }
     ]
+  },
+  {
+    "id": "custombutton",
+    "fields": [
+      {
+        "component": "reference",
+        "valueType": "string",
+        "name": "reference",
+        "label": "test-reference",
+        "multi": false
+      },
+      {
+        "component": "aem-content",
+        "name": "aem-content",
+        "label": "test-aem-content"
+      }
+    ]
   }
 ]
